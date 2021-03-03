@@ -1,3 +1,5 @@
+**NOTE!** The script no longer works as the source no longer exists.
+
 # tv-program-polling
 When run periodically, script polls the given finnish tv programs and if maches found, sends results to email.
 Results include program name, channel and time when aired.
