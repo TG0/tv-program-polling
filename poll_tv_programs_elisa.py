@@ -30,8 +30,6 @@ def fetchChannelData():
     for channel in CHANNELS:
         channelData.append([channel, requests.get(BASE_URL + quote(channel)).json()])
 
-    assert len(CHANNELS) == len(channelData)
-
 
 def searchResults():
     global mailTitle
